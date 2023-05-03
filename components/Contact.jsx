@@ -30,11 +30,11 @@ const Contact = () => {
            e => logoRef.current[0] = e
        }>
            <div className="">
-               <p className="text-6xl text-grey-light md:text-4xl">Skills</p>
+               <p className="text-6xl text-grey-light md:text-4xl sm:text-2xl">Skills</p>
            </div>
-           <div className="flex flex-col mt-12">
+           <div className="flex flex-col mt-12 md:mt-5">
                <div className="flex">
-                    <p className="text-grey-light text-4xl md:text-2xl">Frontend development</p>
+                    <p className="text-grey-light text-4xl md:text-2xl sm:text-base">Frontend development</p>
                </div>
                <div className="flex flex-row flex-wrap items-center mt-6 justify-start">
                    <div className="flex m-[0.2rem]">
@@ -74,7 +74,7 @@ const Contact = () => {
            </div>
            <div className="flex flex-col mt-12">
                <div className="flex">
-                    <p className="text-grey-light text-4xl md:text-2xl">Backend development</p>
+                    <p className="text-grey-light text-4xl md:text-2xl sm:text-base">Backend development</p>
                </div>
                <div className="flex mt-6">
                    <img src="/images/node.svg" className="w-[6rem] h-[6rem] md:w-[4rem] md:h-[4rem] m-[0.2rem]"/>

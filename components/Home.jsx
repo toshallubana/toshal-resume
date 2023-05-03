@@ -30,7 +30,7 @@ const Profile = () => {
     }, []);
 
     return (
-        <div className="flex flex-col items-center justify-center text-center h-[700px] py-16" ref={(e) => {
+        <div className="flex flex-col items-center justify-center text-center h-[700px] md:h-[525px] py-16 md:py-5" ref={(e) => {
             linkRefs.current[0] = e;
         }}>
             <div className="avatar">
@@ -39,7 +39,7 @@ const Profile = () => {
                 </div>
             </div>
             <p className="mt-6">Hi, I'm Toshal👋🏻</p>
-            <h1 className="text-6xl mt-6 md:text-4xl md:mt-4">Building digital <br/> products, brands, and <br/> experience.</h1>
+            <h1 className="text-6xl mt-6 md:text-4xl sm:text-2xl md:mt-4">Building digital <br/> products, brands, and <br/> experience.</h1>
             <div class='button w-[300px] md:w-[220px] h-16 bg-blue-500 rounded-lg cursor-pointer select-none
                 active:translate-y-2  active:[box-shadow:0_0px_0_0_#424446,0_0px_0_0_#424446]
                 active:border-b-[0px]
