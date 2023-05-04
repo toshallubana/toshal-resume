@@ -34,7 +34,7 @@ const Profile = () => {
             linkRefs.current[0] = e;
         }}>
             <div className="avatar">
-                <div className="mask rounded-full h-[250px] w-[250px]">
+                <div className="mask rounded-full h-[250px] w-[250px] md:h-[150px] md:w-[150px]">
                     <img src="/images/toshal.jpeg" />
                 </div>
             </div>
