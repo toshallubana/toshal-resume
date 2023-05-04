@@ -30,12 +30,12 @@ const Profile = () => {
     }, []);
 
     return (
-        <div className="flex flex-col items-center justify-center text-center h-[700px] md:h-[525px] py-16 md:py-5" ref={(e) => {
+        <div className="flex flex-col items-center justify-center text-center h-[750px] md:h-[525px] py-16 md:py-5" ref={(e) => {
             linkRefs.current[0] = e;
         }}>
             <div className="avatar">
-                <div className="mask rounded-full h-[150px] w-[150px]">
-                    <img src="/images/toshal_lubana.jpeg" />
+                <div className="mask rounded-full h-[250px] w-[250px]">
+                    <img src="/images/toshal.jpeg" />
                 </div>
             </div>
             <p className="mt-6">Hi, I'm Toshal👋🏻</p>
