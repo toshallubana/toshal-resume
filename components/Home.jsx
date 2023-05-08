@@ -38,7 +38,7 @@ const Profile = () => {
                     <img src="/images/toshal.jpeg" />
                 </div>
             </div>
-            <p className="mt-6">Hi, I'm Toshal👋🏻</p>
+            <p className="mt-6 text-2xl">Hi, I'm Toshal👋🏻</p>
             <h1 className="text-6xl mt-6 md:text-4xl sm:text-2xl md:mt-4">Building digital <br/> products, brands, and <br/> experience.</h1>
             <div class='button w-[300px] md:w-[220px] h-16 bg-blue-500 rounded-lg cursor-pointer select-none
                 active:translate-y-2  active:[box-shadow:0_0px_0_0_#424446,0_0px_0_0_#424446]
