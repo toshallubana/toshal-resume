@@ -10,7 +10,7 @@ const Education = () => {
             </div>
             
             <div className="mt-20 md:mt-10 grid grid-cols-3 gap-4 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
-                <ExperienceCard icon="/images/avizva.png" date="January 2021 - present" heading="Frontend Developer" description="Avizva,(Full time)" place="Gurgoan, india" />
+                <ExperienceCard icon="/images/avizva.png" date="January 2022 - present" heading="Frontend Developer" description="Avizva,(Full time)" place="Gurgoan, india" />
                 <ExperienceCard icon="/images/shinedezign.png" date="February 2021 - January 2022" heading="Software Development Engineer" description="ShineDezign,(Full time)" place="Mohali, india" />
                 <ExperienceCard icon="/images/busibud.jpeg" date="October 2019 - January 2021" heading="Junior Software Engineer" description="Busibud,(Full time)" place="Mohali, india" />
             </div>
